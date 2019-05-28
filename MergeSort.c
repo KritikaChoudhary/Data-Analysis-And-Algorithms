@@ -42,7 +42,7 @@ void main()
     merge(a,0,size-1);
     clock_t fin=clock();
     printf("\n");
-    //for(int i=0;i<size;i++)
-        //printf("%d\t",a[i]);
+    for(int i=0;i<size;i++)
+        printf("%d\t",a[i]);
     printf("\nStart=%d\tFinal=%d\tTime=%lf",start,fin,(double)(fin-start)/CLOCKS_PER_SEC);
 }
